@@ -1,0 +1,17 @@
+Ex13:
+
+No algoritmo abaixo, o que está errado?
+programa EXERC_13
+var
+A, B, C, RESULTADO: inteiro
+início
+leia A
+leia B
+RASCUNHO<-(A-B)*A/3
+RESULTADO<-B-100
+escreva “O resultado da operação foi:”, RESULTADO
+fim
+
+Resposta:
+
+A variável C não é utilizada, a variável Resultado tem que ser do tipo Float, e a variável Rascunho não está declarada. 
